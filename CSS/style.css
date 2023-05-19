@@ -1,0 +1,58 @@
+.div1{
+    background-image: url();
+}
+body{ 
+    background-image: url("../img/fondopsp2.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.base-role-btn:hover, .base-role-btn.active {
+    background: #fedf4c;
+    border-radius: 15px;
+}
+.ca{
+    background-color: rgba(rgb(127, 99, 157), rgb(66, 49, 86), rgb(40, 25, 58));
+}
+h2{
+    background-color: rgb(20, 71, 54);
+}
+.tamaño{
+    width: 100%;
+    
+}
+.tamañox{
+    width: 100%;
+}
+footer{
+    display: flex;
+    background-color: rgba(42, 88, 73,0.3);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-around;
+}
+footer img{
+    height:50px ;
+    width: 200px;
+    margin-bottom: 12px;
+}
+footer div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#footimg{
+    display: flex;
+    flex-flow: column;
+}
+#redes{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+#footimg img{
+    height: auto;
+    width: 45px;
+    
+}
